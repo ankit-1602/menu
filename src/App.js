@@ -11,7 +11,7 @@ function App() {
       setMenuItems(items)
       return;
     }
-    let newItems=menuItems.filter((item) => item.category===category)
+    let newItems=items.filter((item) => item.category===category)
     setMenuItems(newItems)
     console.log(newItems)
   }
